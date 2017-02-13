@@ -1,6 +1,6 @@
 KeepCoding UX
 
-The importance of design minded development.
+To be aware of the importance of a design minded development.
 
 # Educational Heritage
 
