@@ -61,6 +61,11 @@
 
 \usepackage[labelformat=empty]{caption}
 
+\usepackage{letltxmacro}
+\LetLtxMacro\latexincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+    \frame{\latexincludegraphics[#1]{#2}}}
+
 \begin{document}
 \thispagestyle{empty}
 \pagestyle{empty}
