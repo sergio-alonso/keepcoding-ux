@@ -231,6 +231,16 @@ A comments system should be displayed with each resource.
 
 ## 03 Editor
 
+The resource editor page 
+
+\clearpage
+
+![](./png/03-resource-detail-edit-lg.png){ width=75% }
+
+\clearpage
+
+![](./png/03-resource-detail-edit-xs.png){ height=100% }
+
 \clearpage
 
 # Conclusion
