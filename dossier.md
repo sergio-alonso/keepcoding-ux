@@ -231,7 +231,9 @@ A comments system should be displayed with each resource.
 
 ## 03 Editor
 
-The resource editor page 
+The resource editor page.
+
+Look for the simple way to enter resource information.
 
 \clearpage
 
