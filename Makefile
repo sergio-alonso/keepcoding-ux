@@ -14,7 +14,6 @@ install:
 	apt-get install -y markdown
 
 clean:
-	rm -f *.tex
 	rm -f *.tuc
 	rm -f *.log
 	rm -f *.pdf
