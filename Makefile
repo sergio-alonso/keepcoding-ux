@@ -3,7 +3,7 @@ all: pdf
 pdf: dossier.pdf
 dossier.pdf: dossier.md
 	pandoc --standalone \
-	--template=style.tex \
+	--template=template.tex \
 	--latex-engine=xelatex \
 	--from=markdown \
 	--to=latex \
