@@ -179,16 +179,53 @@ Hypothesis to be validated:
 
 \clearpage
 
-
 ## 01.02 Login Modal
+
+The login modal dialog allows a visitor to become an autorized user.
+
+\clearpage
+
+![](./png/01.02-login-lg.png){ width=75% }
+
+\clearpage
+
+![](./png/01.02-login-xs.png){ height=100% }
 
 \clearpage
 
 ## 02 Search Result
 
+Same results page will be reached, no matter where the search or the filtering comes from. 
+
+Main content is displayed whitin an infinite scroll with a masonry layout.
+
+The main objective is that the user clicks the save button in order to use the resource for its own benefit.
+
+Clicking anyother element of the resource should open the detail view of that resource.
+
+\clearpage
+
+![](./png/02-search-result-lg.png){ width=75% }
+
+\clearpage
+
+![](./png/02-search-result-xs.png){ height=100% }
+
 \clearpage
 
 ## 02.01 Detail Modal
+
+All resource information is showed in detail view.
+
+A comments system should be displayed with each resource.
+
+\clearpage
+
+![](./png/02.01-resource-detail-view-lg.png){ width=75% }
+
+\clearpage
+
+![](./png/02.01-resource-detail-view-xs.png){ height=100% }
 
 \clearpage
 
