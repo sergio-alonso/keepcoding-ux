@@ -1,23 +1,23 @@
 all: pdf
 
-pdf: README.pdf
-README.pdf: README.md
+pdf: dossier.pdf
+dossier.pdf: dossier.md
 	pandoc --standalone \
 	--template=style.tex \
 	--latex-engine=xelatex \
 	--from=markdown \
 	--to=latex \
-	--output=README.pdf README.md
+	--output=dossier.pdf dossier.md
 
 install:
 	apt-get install -y pandoc
 	apt-get install -y markdown
 
 clean:
-	rm -f README.tex
-	rm -f README.tuc
-	rm -f README.log
-	rm -f README.pdf
+	rm -f *.tex
+	rm -f *.tuc
+	rm -f *.log
+	rm -f *.pdf
 	rm -f *.aux
 	rm -f *.out
 	rm -f *~
