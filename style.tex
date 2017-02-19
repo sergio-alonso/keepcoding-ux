@@ -1,0 +1,92 @@
+\documentclass[10pt]{article}
+
+\usepackage[a4paper,pdftex]{geometry}
+\usepackage[english]{babel}
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\usepackage{titlesec}
+
+\renewcommand{\thesection}{}
+\titleformat{\section}[display]
+{\bfseries\Large}
+{\Huge\thesection}
+{4ex}
+{\filleft}
+[\vspace{2ex}%
+\titlerule]
+
+\renewcommand{\thesubsection}{}
+\titleformat{\subsection}[display]
+{\bfseries\small}
+{\thesubsection}
+{2ex}
+{\filright}
+
+\renewcommand{\thesubsubsection}{}
+\titleformat{\subsubsection}[display]
+{\bfseries\small}
+{\thesubsubsection}
+{2ex}
+{\filright}
+[\vspace{2ex}%
+\titlerule]
+
+
+\usepackage{fontspec}
+\setmainfont{Lato Light}
+
+\def\tightlist{}
+\definecolor{grey}{rgb}{0.9,0.9,0.9}
+\definecolor{darkgrey}{rgb}{0.3,0.3,0.3}
+\newcommand{\HRule}[1]{\hfill \rule{0.2\linewidth}{#1}}
+\newcommand{\sectionbreak}{\clearpage}
+
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.3}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=grey,
+  pdfborder = {0 0 0},
+  filecolor=grey,
+  urlcolor=darkgrey,
+}
+\hypersetup{linkcolor=black}
+
+\usepackage{scrextend}
+
+\usepackage[labelformat=empty]{caption}
+
+\begin{document}
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\colorbox{grey}{
+  \parbox[t]{1.0\linewidth}{
+    \centering \fontsize{30pt}{60pt}\selectfont
+    \vspace*{5cm}
+    
+    \hfill $title$ \\
+    \hfill $subtitle$\par
+    
+    \vspace*{5cm}
+  }
+}
+
+\vfill
+
+{\centering \large 
+\hfill $author$ - $email$}
+
+\clearpage
+
+\begin{addmargin}[6cm]{1cm}
+\raggedright
+$body$
+\end{addmargin}
+
+\end{document}
