@@ -6,7 +6,7 @@ make install
 make
 ```
 
-[![Dossier](https://img.shields.io/badge/example-pdf-green.svg)](https://github.com/sergio-alonso/keepcoding-ux/blob/master/dossier.pdf)
+[![Dossier](https://img.shields.io/badge/dossier-pdf-green.svg)](https://github.com/sergio-alonso/keepcoding-ux/blob/master/dossier.pdf)
 
 # Desktop Screens
 
